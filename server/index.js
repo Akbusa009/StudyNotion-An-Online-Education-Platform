@@ -24,7 +24,7 @@ app.use(express.urlencoded({extended: true}))//for using postman
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://studynotion-online-education-platform.netlify.app",
 		credentials:true,
 	})
 )
